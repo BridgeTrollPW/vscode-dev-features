@@ -1,0 +1,12 @@
+{
+    "name": "Certificate installer",
+    "id": "cert-installer",
+    "version": "0.1.0",
+    "description": "Allows for certificates files to be installed and later updated. Currently only works for ubuntu or debian based systems supporting the update-ca-certificates binary",
+    "options": {
+        "certurls": {
+            "type": "string",
+            "description": "Add a comma separated list of urls that should be downloaded"
+        }
+    }
+}
